@@ -6,6 +6,8 @@ import configs from "../src/utils/configs.js";
 import { Socket } from "phoenix-channels";
 import { writeFileSync } from "fs";
 
+const fetch = require('node-fetch-with-proxy');
+
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
 
 const ask = q => new Promise(res => rl.question(q, res));
