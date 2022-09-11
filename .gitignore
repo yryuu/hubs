@@ -62,7 +62,8 @@ dist/
 
 .DS_Store
 
-certs/
+# yryuu comment out 
+#certs/
 results/
 .ret.credentials
 src/assets/locales/en.json
